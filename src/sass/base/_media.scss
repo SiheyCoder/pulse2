@@ -31,3 +31,40 @@
     }
 }
 
+@media (max-width: 767px) {
+    .header {
+        width: 530px;
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        padding-bottom: 70px;
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            width: 575px;
+            align-items: center;
+            margin-top: 0;
+        }
+        &__item {
+            img {
+                margin-top: 25px;
+            }
+        }
+        &__subtitle {
+            margin-top: 10px;
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+}
+
