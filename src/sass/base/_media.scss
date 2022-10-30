@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+    .promo__wrapper {
+        align-items: center;
+        
+    }
+    .header {
+        width: 738px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .advantages {
+        &__descr {
+            font-size: 11px;
+        }
+        &__wrapper {
+            width: 738px;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__item {
+            width: 200px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            margin-top: 22px;
+        }
+    }
+}
+
